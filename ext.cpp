@@ -7,7 +7,7 @@ int main(int argc, char* argv[]){
 		if(arg == "--help" || arg == "-h"){
 			std::cout << "Usage: " << argv[0] << " [OPTION]" << std::endl;
 			std::cout << "Get the extension of a file." << std::endl;
-			std::cout << "Example: " << argv[9] << " main.c main.h" << std::endl;
+			std::cout << "Example: " << argv[0] << " main.c main.h" << std::endl;
 			std::cout << "Output:\n.c\n.h" << std::endl;
 			std::cout << "If a file has no extension, it returns \"_None\"" << std::endl;
 			return 0;
